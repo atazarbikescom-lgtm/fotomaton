@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotomatón Glup Madrid</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="bg-slate-950 shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="media/logo.jpg" alt="Logo Fotomatón Glup" class="h-10 w-10 rounded-full object-cover border border-purple-500">
+                <span class="text-xl font-bold tracking-wider text-purple-400">Fotomatón Glup Madrid</span>
+            </div>
+            <div>
+                <a href="tel:608409967" class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full font-medium transition text-sm">Llamar Ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative py-20 px-4 text-center bg-gradient-to-b from-slate-950 to-slate-900">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">Tu Fotomatón en Madrid para Bodas y Eventos</h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-8">Diversión asegurada, fotos al instante y recuerdos inolvidables para tus invitados.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contacto" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition">Reservar Fecha</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE VÍDEO -->
+    <section class="py-12 px-4 max-w-4xl mx-auto text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 text-purple-300">¡Mira cómo nos divertimos!</h2>
+        <div class="rounded-xl overflow-hidden shadow-2xl border border-slate-800">
+            <video controls autoplay muted loop class="w-full">
+                <source src="media/video_vivo.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de vídeos.
+            </video>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE GALERÍA -->
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center text-purple-300">Galería de Momentos</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="overflow-hidden rounded-lg shadow-lg bg-slate-800 border border-slate-700">
+                <img src="media/foto1.jpg" alt="Foto evento 1" class="w-full h-64 object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="overflow-hidden rounded-lg shadow-lg bg-slate-800 border border-slate-700">
+                <img src="media/foto2.jpg" alt="Foto evento 2" class="w-full h-64 object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="overflow-hidden rounded-lg shadow-lg bg-slate-800 border border-slate-700">
+                <img src="media/foto3.jpg" alt="Foto evento 3" class="w-full h-64 object-cover hover:scale-105 transition duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONTACTO -->
+    <section id="contacto" class="py-16 px-4 bg-slate-950 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4 text-purple-400">¿Hablamos de tu evento?</h2>
+            <p class="text-slate-300 mb-8">Ponte en contacto con nosotros para consultar disponibilidad y tarifas.</p>
+            <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 inline-block">
+                <p class="text-lg text-slate-200 mb-2">Teléfono de contacto:</p>
+                <a href="tel:608499967" class="text-2xl font-bold text-purple-400 hover:underline">600 00 00 00</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 text-center text-slate-500 text-sm bg-slate-950 border-t border-slate-900">
+        <p>&copy; 2026 Fotomatón Glup Madrid. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
